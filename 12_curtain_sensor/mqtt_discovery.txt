@@ -1,0 +1,14 @@
+homeassistant/binary_sensor/Veranda_Curtain_Sensor/config
+{
+    "device_class": "door",
+    "name": "VerandaCurtainSensor",
+    "object_id": "Veranda_Curtain_Sensor",
+    "unique_id": "Veranda_Curtain_Sensor",
+    "device": {
+        "identifiers": "Veranda_Curtain_Sensor",
+        "name": "VerandaCurtainSensor",
+        "manufacturer": "VarOfLa",
+        "configuration_url": "https://blog.naver.com/dhksrl0508"
+    },
+    "state_topic": "homeassistant/binary_sensor/Veranda_Curtain_Sensor/state"
+}
